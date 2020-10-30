@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "jupyterlab_colorblind",
+  "version": "0.0.1",
+  "description": "Display plots with colorblindness simulation.",
+  "author": "Matthew Wigginton Conway",
+  "main": "lib/plugin.js",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension"
+  ],
+  "jupyterlab": {
+    "extension": true
+  },
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {}
+}
