@@ -1,0 +1,24 @@
+{
+    "jupyter.lab.shortcuts": [
+      {
+        "command": "protanomaly-vision",
+        "keys": ["P"],
+        "selector": ".jp-Notebook"
+      },
+      {
+        "command": "deuteranomaly-vision",
+        "keys": ["D"],
+        "selector": ".jp-Notebook"
+      },
+      {
+        "command": "tritanomaly-vision",
+        "keys": ["T"],
+        "selector": ".jp-Notebook"
+      },
+      {
+        "command": "normal-vision",
+        "keys": ["V"],
+        "selector": ".jp-Notebook"
+      }
+    ]
+  }

@@ -1,0 +1,4 @@
+.jp-colorblind-protanomaly-10 { filter: url("filters.svg#protanomaly-10"); }
+.jp-colorblind-deuteranomaly-10 { filter: url("filters.svg#deuteranomaly-10"); }
+.jp-colorblind-tritanomaly-10 { filter: url("filters.svg#tritanomaly-10"); }
+.jp-colorblind-grayscale-10 { filter: url("filters.svg#grayscale"); }

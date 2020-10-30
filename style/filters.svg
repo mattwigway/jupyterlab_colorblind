@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <!--
+        Contains filters for common color-blindness conditions, which are applied to plots in the Jupyter output
+        via CSS filter attributes. Inspired by https://github.com/interaktivarum/rgblind.
+
+        Transformations are from https://www.inf.ufrgs.br/~oliveira/pubs_files/CVD_Simulation/CVD_Simulation.html and
+        a description of the filter format is at https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feColorMatrix
+
+        For now this only has the most severe cases of color blindness. The reference above contains matrices for less
+        severe cases. In future, add them all, and have a setting to adjust color-blindness severity.
+    -->
+    <filter id="protanomaly-10">
+        <!-- TODO confirm that this does not need to be transposed -->
+        <feColorMatrix type="matrix" values="0.152286    1.052583   -0.204868   0   0
+                                             0.114503    0.786281    0.099216   0   0
+                                            -0.003882   -0.048116    1.051998   0   0
+                                             0           0           0          1   0" />
+    </filter>
+
+    <filter id="deuteranomaly-10">
+        <feColorMatrix
+            type="matrix"
+            values="
+            0.367322    0.860646   -0.227968   0   0
+            0.280085    0.672501    0.047413   0   0
+           -0.011820    0.042940    0.968881   0   0
+            0           0           0          1   0
+            " />
+    </filter>
+
+    <filter id="tritanomaly-10">
+        <feColorMatrix
+            type="matrix"
+            values="
+            1.255528   -0.076749   -0.178779   0   0
+           -0.078411    0.930809    0.147602   0   0
+            0.004733    0.691367    0.303900   0   0
+            0           0            0         1   0
+            "/>
+    </filter>
+
+    <filter id="grayscale">
+        <feColorMatrix type="saturate" values="0" />
+    </filter>
+</svg>
