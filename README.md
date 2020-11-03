@@ -17,11 +17,7 @@ The matrix color transformations come from Machado, Oliveira, and Fernandes, 200
 
 ## Installation
 
-To install using pip:
-
-```bash
-jupyter labextension install jupyterlab_colorblind
-```
+In JupyerLab, click on extensions in the left panel, then search for `@mattwigway/jupyterlab_colorblind`.
 
 ## Development
 
