@@ -6,18 +6,14 @@ Display plots with colorblindness simulation.
 
 Once installed in JupyterLab, selecting a color-blindness mode under View -> Color-Blindness Simulation will transform all images to versions that simulate the type of color-blindness selected. Color-blindness affects a significant proportion of the population, making many data displays inaccessible to them. Almost 8\% of Caucasian males are affected by red-green color blindness, with females and other racial groups less affected (Machado, Oliveira, and Fernandes, 2009).
 
-## Credits
-
-The matrix color transformations come from Machado, Oliveira, and Fernandes, 2009, using the computed matrices [they posted on the companion website for the article](https://www.inf.ufrgs.br/~oliveira/pubs_files/CVD_Simulation/CVD_Simulation.html). All color-blindness simulations assume maximum severity of colorblindness. The idea to apply color-blindness filters using SVG filters in CSS comes from [RGBlind](https://www.rgblind.se/). The relative frequency of different types of color blindness is based on [Color Oracle](https://colororacle.org/).
-
-
-## Prerequisites
-
-* JupyterLab
-
 ## Installation
 
 In JupyerLab, click on extensions in the left panel, then search for `@mattwigway/jupyterlab_colorblind`.
+
+
+## Credits
+
+The matrix color transformations come from Machado, Oliveira, and Fernandes, 2009, using the computed matrices [they posted on the companion website for the article](https://www.inf.ufrgs.br/~oliveira/pubs_files/CVD_Simulation/CVD_Simulation.html). All color-blindness simulations assume maximum severity of colorblindness. The idea to apply color-blindness filters using SVG filters in CSS comes from [RGBlind](https://www.rgblind.se/). The relative frequency of different types of color blindness is based on [Color Oracle](https://colororacle.org/).
 
 ## Development
 
