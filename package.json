@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@mattwigway/jupyterlab_colorblind",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Display plots with colorblindness simulation.",
   "author": "Matthew Wigginton Conway",
   "main": "lib/plugin.js",
@@ -16,7 +16,7 @@
   },
   "scripts": {},
   "dependencies": {
-    "@jupyterlab/mainmenu": "^2.2.4",
+    "@jupyterlab/mainmenu": "^>=2.2.4 <4.0.0",
     "@lumino/widgets": "^1.14.0"
   },
   "devDependencies": {}
